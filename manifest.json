@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Simple Tab Unloader",
+  "version": "1.0.0",
+  "description": "Unload/suspend selected tabs.",
+  "icons": {
+    "48": "icons/icon_48.svg",
+    "96": "icons/icon_96.svg"
+  },
+  "permissions": [
+    "tabs",
+    "menus"
+  ],
+  "page_action": {
+    "default_title": "Unload Tab"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
