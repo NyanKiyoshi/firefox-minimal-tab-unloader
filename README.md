@@ -2,6 +2,8 @@
 
 A simple and minimal tab unloader/suspender for Firefox to save in resources (such as memory usage).
 
+Available on Firefox: https://addons.mozilla.org/addon/minimal-tab-unloader/
+
 ## Usage
 
 1. Right-click one or more tabs you are not using.
