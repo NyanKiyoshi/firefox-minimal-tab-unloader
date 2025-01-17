@@ -1,18 +1,17 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Minimal Tab Unloader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple and minimal tab unloader/suspender for Firefox to save in resources (such as memory usage).",
   "icons": {
-    "48": "icons/icon_48.svg",
-    "96": "icons/icon_96.svg"
+    "32": "icons/icon_32_tab_context_menu.svg"
   },
   "permissions": [
     "tabs",
     "menus"
   ],
-  "page_action": {
-    "default_title": "Unload Tab"
+  "action": {
+    "default_icon": "icons/icon_32_browser_action.svg"
   },
   "background": {
     "scripts": [
