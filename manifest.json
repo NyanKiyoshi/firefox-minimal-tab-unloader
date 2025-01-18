@@ -6,6 +6,11 @@
   "icons": {
     "32": "icons/icon_32_tab_context_menu.svg"
   },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{73ec6b25-a86e-4f92-bde5-ca39c7f20014}"
+    }
+  },
   "permissions": [
     "tabs",
     "menus"
