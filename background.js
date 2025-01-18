@@ -76,9 +76,9 @@ const unloadTab = async (tab) => {
 
 // Create menu item for right-clicks on tabs.
 browser.menus.create({
-	id: unloadMenuID,
-	title: menuTitleSingular,
-	contexts: ["tab"]
+    id: unloadMenuID,
+    title: menuTitleSingular,
+    contexts: ["tab"]
 });
 
 // Changes the menu item title to/from plural depending
